@@ -152,6 +152,8 @@ class Lexer:
                         self._advance()  # consume '*'
                         self._advance()  # consume '/'
                         break
+                    else:
+                        self._advance()
                 else:
                     raise LexError("Unterminated multi-line comment", start_line, start_col)
             else:
