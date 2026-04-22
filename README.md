@@ -1,1 +1,1 @@
-# asm
+# compiler for tiny c
